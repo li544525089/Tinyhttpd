@@ -1,7 +1,7 @@
 #cmake最低版本
 CMAKE_MINIMUM_REQUIRED(VERSION 3.12)
 #项目名称
-PROJECT(Tinyhttpd)
+PROJECT(git_workspace)
 set(CMAKE_BUILD_TYPE Debug)
 #使能c++11
 SET(CMAKE_CXX_STANDARD 11)
