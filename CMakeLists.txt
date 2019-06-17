@@ -9,3 +9,4 @@ PROJECT(git_workspace)
 # 添加参与编译的子目录  
 ADD_SUBDIRECTORY(tinyHttpClient)
 ADD_SUBDIRECTORY(tinyHttpServer)
+ADD_SUBDIRECTORY(oatpp)
