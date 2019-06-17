@@ -1,19 +1,11 @@
-#cmake最低版本
-CMAKE_MINIMUM_REQUIRED(VERSION 3.12)
-#项目名称
+# 声明CMake的最低要求版本  
+cmake_minimum_required(VERSION 3.13)
+
+# 定义项目(工程)名称,  
+# 同时定义了以下默认变量:  
+# PROJECT_SOURCE_DIR 或 HELLO_SOURCE_DIR, 代指CMake开始构建的根目录(通常是项目根目录)  
+# PROJECT_BINARY_DIR 或 HELLO_BINARY_DIR, 代指CMake的编译目录(即执行cmake命令的目录)  
 PROJECT(git_workspace)
-set(CMAKE_BUILD_TYPE Debug)
-#使能c++11
-SET(CMAKE_CXX_STANDARD 11)
-# 设置编译目标名称
-SET(LINK_TARGETNAME http)
-# 设置链接库名称
-SET(LINK_LIB_LIST pthread)
-# 设置变量，表示所有的源文件
-AUX_SOURCE_DIRECTORY(./src LINK_SOURCEFILES)
-
-ADD_EXECUTABLE(${LINK_TARGETNAME}  ${LINK_SOURCEFILES})
-
-# 依赖的库文件
-TARGET_LINK_LIBRARIES(${LINK_TARGETNAME} ${LINK_LIB_LIST})
-
+# 添加参与编译的子目录  
+ADD_SUBDIRECTORY(tinyHttpClient)
+ADD_SUBDIRECTORY(tinyHttpServer)
