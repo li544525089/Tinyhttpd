@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/http.dir/src/main.c.o CMakeFiles/http.dir/src/simpleclient.c.o  -o http -lpthread 

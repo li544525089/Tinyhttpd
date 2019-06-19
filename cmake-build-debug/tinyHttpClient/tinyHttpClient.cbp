@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tinyHttpClient"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\tinyHttpClient\;CMake Files\tinyHttpServer\;CMake Files\oatpp\;CMake Files\oatpp\src\;CMake Files\oatpp\cmake\;CMake Files\oatpp\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/root/git_workspace/cmake-build-debug/tinyHttpClient"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/tinyHttpClient/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/tinyHttpClient/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/tinyHttpClient/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/tinyHttpClient/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinyHttpClient">
+				<Option output="/root/git_workspace/bin/tinyHttpClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/git_workspace/tinyHttpClient/../bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../include/c++/5.3.1"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../include/c++/5.3.1/x86_64-redhat-linux"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../include/c++/5.3.1/backward"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/tinyHttpClient/Makefile&quot;  VERBOSE=1 tinyHttpClient"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/tinyHttpClient/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/tinyHttpClient/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/tinyHttpClient/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinyHttpClient/fast">
+				<Option output="/root/git_workspace/bin/tinyHttpClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/git_workspace/tinyHttpClient/../bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../include/c++/5.3.1"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../include/c++/5.3.1/x86_64-redhat-linux"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../include/c++/5.3.1/backward"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/tinyHttpClient/Makefile&quot;  VERBOSE=1 tinyHttpClient/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/tinyHttpClient/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/tinyHttpClient/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/tinyHttpClient/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/root/git_workspace/tinyHttpClient/src/tinyHttpClient.c">
+			<Option target="tinyHttpClient"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/tinyHttpClient/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tinyHttpClient\"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/tinyHttpServer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tinyHttpServer\"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\oatpp\"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\oatpp\src\"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/cmake/module-config.cmake.in">
+			<Option virtualFolder="CMake Files\oatpp\cmake\"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/cmake/module-install.cmake">
+			<Option virtualFolder="CMake Files\oatpp\cmake\"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\oatpp\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

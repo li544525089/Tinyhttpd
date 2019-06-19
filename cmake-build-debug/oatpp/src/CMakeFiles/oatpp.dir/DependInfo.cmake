@@ -1,0 +1,116 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/root/git_workspace/oatpp/src/oatpp/algorithm/CRC.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/algorithm/CRC.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/Types.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/Types.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/async/Coroutine.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/async/Coroutine.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/async/CoroutineWaitList.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/async/CoroutineWaitList.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/async/Error.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/async/Error.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/async/Executor.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/async/Executor.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/async/Lock.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/async/Lock.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/async/Processor.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/async/Processor.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/async/worker/IOEventWorker_common.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/async/worker/IOEventWorker_common.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/async/worker/IOEventWorker_epoll.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/async/worker/IOEventWorker_epoll.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/async/worker/IOEventWorker_kqueue.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/async/worker/IOEventWorker_kqueue.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/async/worker/IOWorker.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/async/worker/IOWorker.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/async/worker/TimerWorker.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/async/worker/TimerWorker.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/async/worker/Worker.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/async/worker/Worker.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/base/CommandLineArguments.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/base/CommandLineArguments.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/base/Countable.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/base/Countable.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/base/Environment.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/base/Environment.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/base/StrBuffer.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/base/StrBuffer.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/base/memory/Allocator.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/base/memory/Allocator.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/base/memory/MemoryPool.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/base/memory/MemoryPool.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/base/memory/ObjectPool.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/base/memory/ObjectPool.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/collection/FastQueue.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/collection/FastQueue.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/collection/LinkedList.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/collection/LinkedList.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/collection/ListMap.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/collection/ListMap.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/concurrency/SpinLock.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/concurrency/SpinLock.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/concurrency/Thread.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/concurrency/Thread.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/data/IODefinitions.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/data/IODefinitions.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/data/buffer/FIFOBuffer.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/data/buffer/FIFOBuffer.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/data/buffer/IOBuffer.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/data/buffer/IOBuffer.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/data/mapping/ObjectMapper.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/data/mapping/ObjectMapper.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/data/mapping/type/List.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/data/mapping/type/List.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/data/mapping/type/ListMap.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/data/mapping/type/ListMap.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/data/mapping/type/Object.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/data/mapping/type/Object.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/data/mapping/type/Primitive.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/data/mapping/type/Primitive.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/data/mapping/type/Type.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/data/mapping/type/Type.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/data/share/MemoryLabel.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/data/share/MemoryLabel.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/data/stream/ChunkedBuffer.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/data/stream/ChunkedBuffer.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/data/stream/Delegate.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/data/stream/Delegate.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/data/stream/Stream.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/data/stream/Stream.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/data/stream/StreamBufferedProxy.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/data/stream/StreamBufferedProxy.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/parser/Caret.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/parser/Caret.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/parser/ParsingError.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/parser/ParsingError.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/core/utils/ConversionUtils.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/core/utils/ConversionUtils.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/encoding/Base64.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/encoding/Base64.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/encoding/Hex.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/encoding/Hex.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/encoding/Unicode.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/encoding/Unicode.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/network/Connection.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/network/Connection.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/network/ConnectionProvider.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/network/ConnectionProvider.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/network/Url.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/network/Url.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/network/client/SimpleTCPConnectionProvider.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/network/client/SimpleTCPConnectionProvider.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/network/server/ConnectionHandler.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/network/server/ConnectionHandler.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/network/server/Server.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/network/server/Server.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/network/server/SimpleTCPConnectionProvider.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/network/server/SimpleTCPConnectionProvider.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/network/virtual_/Interface.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/network/virtual_/Interface.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/network/virtual_/Pipe.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/network/virtual_/Pipe.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/network/virtual_/Socket.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/network/virtual_/Socket.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/network/virtual_/client/ConnectionProvider.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/network/virtual_/client/ConnectionProvider.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/network/virtual_/server/ConnectionProvider.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/network/virtual_/server/ConnectionProvider.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/parser/json/Utils.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/parser/json/Utils.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/parser/json/mapping/Deserializer.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/parser/json/mapping/Deserializer.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/parser/json/mapping/ObjectMapper.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/parser/json/mapping/ObjectMapper.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/parser/json/mapping/Serializer.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/parser/json/mapping/Serializer.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/web/client/ApiClient.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/web/client/ApiClient.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/web/client/HttpRequestExecutor.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/web/client/HttpRequestExecutor.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/web/client/RequestExecutor.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/web/client/RequestExecutor.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/web/protocol/CommunicationError.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/web/protocol/CommunicationError.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/web/protocol/http/Http.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/web/protocol/http/Http.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/web/protocol/http/incoming/BodyDecoder.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/web/protocol/http/incoming/BodyDecoder.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/web/protocol/http/incoming/Request.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/web/protocol/http/incoming/Request.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/web/protocol/http/incoming/RequestHeadersReader.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/web/protocol/http/incoming/RequestHeadersReader.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/web/protocol/http/incoming/Response.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/web/protocol/http/incoming/Response.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/web/protocol/http/incoming/ResponseHeadersReader.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/web/protocol/http/incoming/ResponseHeadersReader.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/web/protocol/http/incoming/SimpleBodyDecoder.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/web/protocol/http/incoming/SimpleBodyDecoder.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/web/protocol/http/outgoing/Body.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/web/protocol/http/outgoing/Body.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/web/protocol/http/outgoing/BufferBody.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/web/protocol/http/outgoing/BufferBody.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/web/protocol/http/outgoing/ChunkedBufferBody.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/web/protocol/http/outgoing/ChunkedBufferBody.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/web/protocol/http/outgoing/CommunicationUtils.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/web/protocol/http/outgoing/CommunicationUtils.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/web/protocol/http/outgoing/DtoBody.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/web/protocol/http/outgoing/DtoBody.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/web/protocol/http/outgoing/Request.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/web/protocol/http/outgoing/Request.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/web/protocol/http/outgoing/Response.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/web/protocol/http/outgoing/Response.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/web/protocol/http/outgoing/ResponseFactory.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/web/protocol/http/outgoing/ResponseFactory.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/web/server/AsyncHttpConnectionHandler.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/web/server/AsyncHttpConnectionHandler.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/web/server/HttpConnectionHandler.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/web/server/HttpConnectionHandler.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/web/server/HttpProcessor.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/web/server/HttpProcessor.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/web/server/HttpRouter.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/web/server/HttpRouter.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/web/server/api/ApiController.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/web/server/api/ApiController.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/web/server/api/Endpoint.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/web/server/api/Endpoint.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/web/server/handler/ErrorHandler.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/web/server/handler/ErrorHandler.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/web/server/handler/Interceptor.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/web/server/handler/Interceptor.cpp.o"
+  "/root/git_workspace/oatpp/src/oatpp/web/url/mapping/Pattern.cpp" "/root/git_workspace/cmake-build-debug/oatpp/src/CMakeFiles/oatpp.dir/oatpp/web/url/mapping/Pattern.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "OATPP_ASYNC_EXECUTOR_THREAD_NUM_DEFAULT=2"
+  "OATPP_THREAD_DISTRIBUTED_MEM_POOL_SHARDS_COUNT=10"
+  )
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../oatpp/src"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

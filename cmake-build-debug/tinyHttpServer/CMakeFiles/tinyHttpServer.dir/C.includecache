@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/git_workspace/tinyHttpServer/src/tinyHttpServer.c
+stdio.h
+-
+sys/socket.h
+-
+sys/types.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+unistd.h
+-
+ctype.h
+-
+strings.h
+-
+string.h
+-
+sys/stat.h
+-
+pthread.h
+-
+sys/wait.h
+-
+stdlib.h
+-
+stdint.h
+-
+

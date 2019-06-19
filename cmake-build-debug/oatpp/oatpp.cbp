@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="oatpp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\tinyHttpClient\;CMake Files\tinyHttpServer\;CMake Files\oatpp\;CMake Files\oatpp\src\;CMake Files\oatpp\cmake\;CMake Files\oatpp\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/root/git_workspace/cmake-build-debug/oatpp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/oatpp/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/oatpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/oatpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/oatpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="oatpp-test">
+				<Option output="/root/git_workspace/cmake-build-debug/oatpp/src/liboatpp-test.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/git_workspace/cmake-build-debug/oatpp/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOATPP_THREAD_DISTRIBUTED_MEM_POOL_SHARDS_COUNT=10"/>
+					<Add option="-DOATPP_ASYNC_EXECUTOR_THREAD_NUM_DEFAULT=2"/>
+					<Add directory="/root/git_workspace/oatpp/src"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../include/c++/5.3.1"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../include/c++/5.3.1/x86_64-redhat-linux"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../include/c++/5.3.1/backward"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/oatpp/src/Makefile&quot;  VERBOSE=1 oatpp-test"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/oatpp/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/oatpp/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/oatpp/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="oatpp-test/fast">
+				<Option output="/root/git_workspace/cmake-build-debug/oatpp/src/liboatpp-test.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/git_workspace/cmake-build-debug/oatpp/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOATPP_THREAD_DISTRIBUTED_MEM_POOL_SHARDS_COUNT=10"/>
+					<Add option="-DOATPP_ASYNC_EXECUTOR_THREAD_NUM_DEFAULT=2"/>
+					<Add directory="/root/git_workspace/oatpp/src"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../include/c++/5.3.1"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../include/c++/5.3.1/x86_64-redhat-linux"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../include/c++/5.3.1/backward"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/oatpp/src/Makefile&quot;  VERBOSE=1 oatpp-test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/oatpp/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/oatpp/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/oatpp/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="oatpp">
+				<Option output="/root/git_workspace/cmake-build-debug/oatpp/src/liboatpp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/git_workspace/cmake-build-debug/oatpp/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOATPP_THREAD_DISTRIBUTED_MEM_POOL_SHARDS_COUNT=10"/>
+					<Add option="-DOATPP_ASYNC_EXECUTOR_THREAD_NUM_DEFAULT=2"/>
+					<Add directory="/root/git_workspace/oatpp/src"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../include/c++/5.3.1"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../include/c++/5.3.1/x86_64-redhat-linux"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../include/c++/5.3.1/backward"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/oatpp/src/Makefile&quot;  VERBOSE=1 oatpp"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/oatpp/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/oatpp/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/oatpp/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="oatpp/fast">
+				<Option output="/root/git_workspace/cmake-build-debug/oatpp/src/liboatpp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/git_workspace/cmake-build-debug/oatpp/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOATPP_THREAD_DISTRIBUTED_MEM_POOL_SHARDS_COUNT=10"/>
+					<Add option="-DOATPP_ASYNC_EXECUTOR_THREAD_NUM_DEFAULT=2"/>
+					<Add directory="/root/git_workspace/oatpp/src"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../include/c++/5.3.1"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../include/c++/5.3.1/x86_64-redhat-linux"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../include/c++/5.3.1/backward"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/oatpp/src/Makefile&quot;  VERBOSE=1 oatpp/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/oatpp/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/oatpp/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/oatpp/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="oatppAllTests">
+				<Option output="/root/git_workspace/cmake-build-debug/oatpp/test/oatppAllTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/git_workspace/cmake-build-debug/oatpp/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOATPP_ENABLE_ALL_TESTS_MAIN"/>
+					<Add option="-DOATPP_THREAD_DISTRIBUTED_MEM_POOL_SHARDS_COUNT=10"/>
+					<Add option="-DOATPP_ASYNC_EXECUTOR_THREAD_NUM_DEFAULT=2"/>
+					<Add directory="/root/git_workspace/oatpp/test"/>
+					<Add directory="/root/git_workspace/oatpp/src"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../include/c++/5.3.1"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../include/c++/5.3.1/x86_64-redhat-linux"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../include/c++/5.3.1/backward"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/oatpp/test/Makefile&quot;  VERBOSE=1 oatppAllTests"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/oatpp/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/oatpp/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/oatpp/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="oatppAllTests/fast">
+				<Option output="/root/git_workspace/cmake-build-debug/oatpp/test/oatppAllTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/git_workspace/cmake-build-debug/oatpp/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOATPP_ENABLE_ALL_TESTS_MAIN"/>
+					<Add option="-DOATPP_THREAD_DISTRIBUTED_MEM_POOL_SHARDS_COUNT=10"/>
+					<Add option="-DOATPP_ASYNC_EXECUTOR_THREAD_NUM_DEFAULT=2"/>
+					<Add directory="/root/git_workspace/oatpp/test"/>
+					<Add directory="/root/git_workspace/oatpp/src"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../include/c++/5.3.1"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../include/c++/5.3.1/x86_64-redhat-linux"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/../../../../include/c++/5.3.1/backward"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/rh/devtoolset-4/root/usr/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/oatpp/test/Makefile&quot;  VERBOSE=1 oatppAllTests/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/oatpp/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/oatpp/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/root/git_workspace/cmake-build-debug/oatpp/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp-test/Checker.cpp">
+			<Option target="oatpp-test"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp-test/Checker.hpp">
+			<Option target="oatpp-test"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp-test/UnitTest.cpp">
+			<Option target="oatpp-test"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp-test/UnitTest.hpp">
+			<Option target="oatpp-test"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp-test/web/ClientServerTestRunner.hpp">
+			<Option target="oatpp-test"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/algorithm/CRC.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/algorithm/CRC.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/codegen/codegen_define_ApiClient_.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/codegen/codegen_define_ApiController_.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/codegen/codegen_define_DTO_.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/codegen/codegen_undef_ApiClient_.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/codegen/codegen_undef_ApiController_.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/codegen/codegen_undef_DTO_.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/Types.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/Types.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/async/Coroutine.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/async/Coroutine.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/async/CoroutineWaitList.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/async/CoroutineWaitList.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/async/Error.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/async/Error.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/async/Executor.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/async/Executor.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/async/Lock.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/async/Lock.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/async/Processor.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/async/Processor.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/async/worker/IOEventWorker.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/async/worker/IOEventWorker_common.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/async/worker/IOEventWorker_epoll.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/async/worker/IOEventWorker_kqueue.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/async/worker/IOWorker.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/async/worker/IOWorker.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/async/worker/TimerWorker.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/async/worker/TimerWorker.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/async/worker/Worker.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/async/worker/Worker.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/base/CommandLineArguments.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/base/CommandLineArguments.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/base/Config.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/base/Countable.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/base/Countable.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/base/Environment.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/base/Environment.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/base/StrBuffer.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/base/StrBuffer.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/base/memory/Allocator.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/base/memory/Allocator.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/base/memory/MemoryPool.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/base/memory/MemoryPool.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/base/memory/ObjectPool.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/base/memory/ObjectPool.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/collection/FastQueue.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/collection/FastQueue.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/collection/LinkedList.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/collection/LinkedList.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/collection/ListMap.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/collection/ListMap.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/concurrency/SpinLock.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/concurrency/SpinLock.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/concurrency/Thread.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/concurrency/Thread.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/data/IODefinitions.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/data/IODefinitions.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/data/buffer/FIFOBuffer.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/data/buffer/FIFOBuffer.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/data/buffer/IOBuffer.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/data/buffer/IOBuffer.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/data/mapping/ObjectMapper.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/data/mapping/ObjectMapper.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/data/mapping/type/List.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/data/mapping/type/List.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/data/mapping/type/ListMap.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/data/mapping/type/ListMap.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/data/mapping/type/Object.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/data/mapping/type/Object.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/data/mapping/type/Primitive.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/data/mapping/type/Primitive.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/data/mapping/type/Type.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/data/mapping/type/Type.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/data/share/MemoryLabel.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/data/share/MemoryLabel.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/data/stream/ChunkedBuffer.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/data/stream/ChunkedBuffer.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/data/stream/Delegate.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/data/stream/Delegate.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/data/stream/Stream.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/data/stream/Stream.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/data/stream/StreamBufferedProxy.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/data/stream/StreamBufferedProxy.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/macro/basic.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/macro/codegen.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/macro/component.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/parser/Caret.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/parser/Caret.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/parser/ParsingError.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/parser/ParsingError.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/utils/ConversionUtils.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/core/utils/ConversionUtils.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/encoding/Base64.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/encoding/Base64.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/encoding/Hex.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/encoding/Hex.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/encoding/Unicode.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/encoding/Unicode.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/network/Connection.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/network/Connection.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/network/ConnectionProvider.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/network/ConnectionProvider.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/network/Url.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/network/Url.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/network/client/SimpleTCPConnectionProvider.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/network/client/SimpleTCPConnectionProvider.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/network/server/ConnectionHandler.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/network/server/ConnectionHandler.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/network/server/Server.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/network/server/Server.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/network/server/SimpleTCPConnectionProvider.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/network/server/SimpleTCPConnectionProvider.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/network/virtual_/Interface.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/network/virtual_/Interface.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/network/virtual_/Pipe.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/network/virtual_/Pipe.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/network/virtual_/Socket.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/network/virtual_/Socket.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/network/virtual_/client/ConnectionProvider.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/network/virtual_/client/ConnectionProvider.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/network/virtual_/server/ConnectionProvider.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/network/virtual_/server/ConnectionProvider.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/parser/json/Utils.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/parser/json/Utils.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/parser/json/mapping/Deserializer.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/parser/json/mapping/Deserializer.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/parser/json/mapping/ObjectMapper.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/parser/json/mapping/ObjectMapper.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/parser/json/mapping/Serializer.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/parser/json/mapping/Serializer.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/client/ApiClient.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/client/ApiClient.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/client/HttpRequestExecutor.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/client/HttpRequestExecutor.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/client/RequestExecutor.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/client/RequestExecutor.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/CommunicationError.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/CommunicationError.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/http/Http.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/http/Http.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/http/incoming/BodyDecoder.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/http/incoming/BodyDecoder.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/http/incoming/Request.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/http/incoming/Request.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/http/incoming/RequestHeadersReader.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/http/incoming/RequestHeadersReader.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/http/incoming/Response.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/http/incoming/Response.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/http/incoming/ResponseHeadersReader.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/http/incoming/ResponseHeadersReader.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/http/incoming/SimpleBodyDecoder.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/http/incoming/SimpleBodyDecoder.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/http/outgoing/Body.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/http/outgoing/Body.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/http/outgoing/BufferBody.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/http/outgoing/BufferBody.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/http/outgoing/ChunkedBufferBody.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/http/outgoing/ChunkedBufferBody.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/http/outgoing/CommunicationUtils.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/http/outgoing/CommunicationUtils.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/http/outgoing/DtoBody.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/http/outgoing/DtoBody.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/http/outgoing/Request.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/http/outgoing/Request.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/http/outgoing/Response.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/http/outgoing/Response.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/http/outgoing/ResponseFactory.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/protocol/http/outgoing/ResponseFactory.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/server/AsyncHttpConnectionHandler.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/server/AsyncHttpConnectionHandler.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/server/HttpConnectionHandler.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/server/HttpConnectionHandler.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/server/HttpProcessor.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/server/HttpProcessor.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/server/HttpRequestHandler.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/server/HttpRouter.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/server/HttpRouter.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/server/api/ApiController.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/server/api/ApiController.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/server/api/Endpoint.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/server/api/Endpoint.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/server/handler/ErrorHandler.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/server/handler/ErrorHandler.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/server/handler/Interceptor.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/server/handler/Interceptor.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/url/mapping/Pattern.cpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/url/mapping/Pattern.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/oatpp/web/url/mapping/Router.hpp">
+			<Option target="oatpp"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/AllTestsMain.cpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/core/async/LockTest.cpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/core/async/LockTest.hpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/core/base/CommandLineArgumentsTest.cpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/core/base/CommandLineArgumentsTest.hpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/core/base/RegRuleTest.cpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/core/base/RegRuleTest.hpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/core/base/collection/LinkedListTest.cpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/core/base/collection/LinkedListTest.hpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/core/base/memory/MemoryPoolTest.cpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/core/base/memory/MemoryPoolTest.hpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/core/base/memory/PerfTest.cpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/core/base/memory/PerfTest.hpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/core/data/mapping/type/TypeTest.cpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/core/data/mapping/type/TypeTest.hpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/core/data/share/MemoryLabelTest.cpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/core/data/share/MemoryLabelTest.hpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/core/data/stream/ChunkedBufferTest.cpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/core/data/stream/ChunkedBufferTest.hpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/core/parser/CaretTest.cpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/core/parser/CaretTest.hpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/encoding/Base64Test.cpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/encoding/Base64Test.hpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/encoding/UnicodeTest.cpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/encoding/UnicodeTest.hpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/network/UrlTest.cpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/network/UrlTest.hpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/network/virtual_/InterfaceTest.cpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/network/virtual_/InterfaceTest.hpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/network/virtual_/PipeTest.cpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/network/virtual_/PipeTest.hpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/parser/json/mapping/DTOMapperPerfTest.cpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/parser/json/mapping/DTOMapperPerfTest.hpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/parser/json/mapping/DTOMapperTest.cpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/parser/json/mapping/DTOMapperTest.hpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/parser/json/mapping/DeserializerTest.cpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/parser/json/mapping/DeserializerTest.hpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/web/FullAsyncClientTest.cpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/web/FullAsyncClientTest.hpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/web/FullAsyncTest.cpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/web/FullAsyncTest.hpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/web/FullTest.cpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/web/FullTest.hpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/web/app/Client.hpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/web/app/Controller.hpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/web/app/ControllerAsync.hpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/web/app/DTOs.hpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/web/server/api/ApiControllerTest.cpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/oatpp/web/server/api/ApiControllerTest.hpp">
+			<Option target="oatppAllTests"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/tinyHttpClient/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tinyHttpClient\"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/tinyHttpServer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tinyHttpServer\"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\oatpp\"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\oatpp\src\"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/cmake/module-config.cmake.in">
+			<Option virtualFolder="CMake Files\oatpp\cmake\"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/cmake/module-install.cmake">
+			<Option virtualFolder="CMake Files\oatpp\cmake\"/>
+		</Unit>
+		<Unit filename="/root/git_workspace/oatpp/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\oatpp\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

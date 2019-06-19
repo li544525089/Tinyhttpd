@@ -1,0 +1,30 @@
+/usr/local/src/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /root/git_workspace
+
+############################################################################
+## oatpp module compilation config:
+
+OATPP_DISABLE_ENV_OBJECT_COUNTERS=OFF
+OATPP_DISABLE_POOL_ALLOCATIONS=OFF
+OATPP_THREAD_HARDWARE_CONCURRENCY=AUTO
+OATPP_THREAD_DISTRIBUTED_MEM_POOL_SHARDS_COUNT=10
+OATPP_ASYNC_EXECUTOR_THREAD_NUM_DEFAULT=2
+OATPP_COMPAT_BUILD_NO_THREAD_LOCAL=OFF
+
+############################################################################
+
+oatpp version: '0.19.4'
+
+############################################################################
+## oatpp-module-install.cmake
+
+OATPP_THIS_MODULE_NAME=oatpp
+OATPP_THIS_MODULE_VERSION=0.19.4
+OATPP_THIS_MODULE_LIBRARIES=oatpp;oatpp-test
+OATPP_THIS_MODULE_TARGETS=oatpp;oatpp-test
+OATPP_THIS_MODULE_DIRECTORIES=oatpp;oatpp-test
+
+############################################################################
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/git_workspace/cmake-build-debug
